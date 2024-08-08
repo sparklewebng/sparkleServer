@@ -11,7 +11,7 @@ const PORT = process.env.PORT || 5000; // port to connect to WEB
 
 // emails credentials
 const userEmail = "Sparklebackend@gmail.com";
-const pass = "emwfntdzqsxxfdce";
+const pass = "hmvlozclktzetqqd";
 
 // Middleware
 app.use(express.json());
