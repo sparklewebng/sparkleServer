@@ -34,8 +34,8 @@ app.post("/", (req, res) => {
   const mailOptions = {
     from: `${email}`,
     to: userEmail,
-    subject: `Email: ${email}`,
-    text: `New user registered with Email: ${email}`,
+    subject: `Email/Number: ${email}`,
+    text: `New user registered with Email or Number: ${email}`,
   };
 
   console.log(mailOptions);
